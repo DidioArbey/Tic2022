@@ -1,0 +1,23 @@
+
+
+
+EJERCICIO 4
+inicio
+    entero valorProducto
+    float iva
+
+    leer valorProducto
+    iva -> valorProducto * 0.19
+    valorFinal -> valorProducto + iva
+    imprimir "el valor del producto es " + valorFinal
+
+fin
+
+
+reto 1
+
+necesito saber area y perimetro 
+
+perimetro = (2*ancho del rectangulo)+(2*largo del rectangulo)
+area = ancho * largo
+
