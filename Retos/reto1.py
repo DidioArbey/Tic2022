@@ -1,8 +1,11 @@
 #declaro la funcion de calculadora
-def calculadoraRectangulo(ancho:float,largo:float):
+def calculadoraRectangulo(ancho:float,largo:float)->str:
     perimetro = (2 * ancho) +(2 * largo)
     area = ancho * largo
-    return "El cuadrado tiene un perimetro de: " +str(perimetro) + " y un area de: "+str(area) #el mensaje retorna cuadrdo porque asi lo estipula el reto.
+    mensaje = "El cuadarado tiene un perimetro de: {0:.1f}".format(perimetro) + " y un area de: {0:.1f}".format(area)
+    mensaje2 = f"El cuadarado tiene un perimetro de: {perimetro} y un area de: {area}"
+    #print(mensaje2)
+    return mensaje2 #el mensaje retorna cuadrdo porque asi lo estipula el reto.
 
 #capturo por consola los valores del rectangulo y asu vez se fuerzan para que sean de tipo float
 #ancho = float(input("Digite el valor del ancho del rectangulo "))
@@ -10,4 +13,4 @@ def calculadoraRectangulo(ancho:float,largo:float):
 
 mostrar=calculadoraRectangulo(3,2.5)
 
-print(mostrar)
+#print(mostrar)
