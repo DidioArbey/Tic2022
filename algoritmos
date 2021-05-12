@@ -21,3 +21,9 @@ necesito saber area y perimetro
 perimetro = (2*ancho del rectangulo)+(2*largo del rectangulo)
 area = ancho * largo
 
+inicio
+    pregrado paga 2salarios minimos vigentes + 10%
+    especializacion 3salarios minimos vigentes + 20% +120000(servicio medico)
+    posgrado 5 smv si voto 10%descuento sino no hay descuento
+
+fin
