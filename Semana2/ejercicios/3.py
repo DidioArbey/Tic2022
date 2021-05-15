@@ -11,8 +11,7 @@ def pedirNumero():
         else:
             print("uno o dos de los digitos son impares")
     else:
-        print("el numero digitado no tiene dos digitos intente de nuevoo \n")
-        print(pedirNumero())
+        print("el numero digitado no tiene dos digitos ")
 
 mensaje=pedirNumero()
 print(mensaje)

@@ -1,0 +1,1 @@
+#Leer un número entero de cuatro dígitos y determinar si el segundo dígito es igual al penúltimo
