@@ -1,4 +1,6 @@
 #Leer dos números enteros y determinar cuál es el mayor.
+
+
 def mayor():
     numero1=int(input("Digite el primer numero "))
     numero2=int(input("Digite el segundo numero "))
