@@ -3,7 +3,7 @@ def primo(numero,n=2):
     validar=len(str(numero))
     if validar==2:
         if numero < 20:
-            if numero >=n:
+            if n >=numero:
                 print("Es primo")
             elif numero % n !=0:
                 return primo(numero,n+1)
@@ -16,5 +16,3 @@ def primo(numero,n=2):
 
 numero=int(input("Digite un numero de dos digitos menor que 20: "))
 print(primo(numero))
-
-#pendiente para evaluar sin usar un cilo for

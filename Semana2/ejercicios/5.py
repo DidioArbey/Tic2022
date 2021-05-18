@@ -3,7 +3,7 @@ def primo(numero,n=2):
     validar=len(str(numero))
     if numero >= 0:
         if validar==2:
-            if numero >=n:
+            if n >=numero:
                 print("Es primo")
             elif numero % n !=0:
                 return primo(numero,n+1)
