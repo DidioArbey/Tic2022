@@ -1,4 +1,4 @@
-# Leer un número entero y determinar si es un número terminado en 4. 
+# Leer un número entero y determinar si es un número terminado en 4.
 def terminadoCuatro():
     numero = int(input("Digite un numero "))
     ultimoNumero = int(str(numero)[-1]) #str para convertir en una cadena y asi poder evaluar su ultima posicion
