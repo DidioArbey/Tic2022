@@ -6,4 +6,6 @@ def mostrarMoneda():
     else:
         print("No esta la moneda")
 
-mostrarMoneda()
+print(mostrarMoneda())
+
+
