@@ -19,12 +19,15 @@ def empresa(numeroTrabajadores):
     sueldoMenor=sueldoMayor=sueldos=0
     while i <= numeroTrabajadores:
         sueldoTrabajador=int(input(f"digite el sueldo del {i} trabajador: "))
-        sueldos += sueldoTrabajador
-        if sueldoTrabajador >100 and sueldoTrabajador <=300:
-            sueldoMenor+= 1
-        else:# sueldoTrabajador >300 and sueldoTrabajador<=500:
-            sueldoMayor += 1
-        i+=1
+        if sueldoTrabajador >100 and sueldoTrabajador <=500:
+            sueldos += sueldoTrabajador
+            if sueldoTrabajador >=100 and sueldoTrabajador <=300:
+                sueldoMenor+= 1
+            else:# sueldoTrabajador >300 and sueldoTrabajador<=500:
+                sueldoMayor += 1
+            i+=1
+        else:
+            print("El sueldo digitado no esta en el rango")
     print(f"Los empleados que ganan entre $100 y 300 son: {sueldoMenor}")
     print(f"Los empleados que ganan mas de $300 son: {sueldoMayor}")
     print(f"La empresa gasta un total de: {sueldos} en los empleados")
