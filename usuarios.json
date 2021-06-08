@@ -1,0 +1,14 @@
+[
+  {
+    "nombre": "Arbey Perdomo",
+    "email": "arbey.perdomo99@live.com",
+    "edad": 25,
+    "profesor": false
+  },
+  {
+    "nombre": "Cesar Diaz",
+    "email": "cesar.a.diaz@gmail.com",
+    "edad": 41,
+    "profesor": true
+  }
+]
