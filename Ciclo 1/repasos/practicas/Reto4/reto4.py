@@ -1,12 +1,4 @@
-def catalogacion_peliculas(lista: list) -> tuple:
-    listaNueva=[]
-    for iterar in range(len(lista)):
-        listaNueva.append(lista[iterar])
 
-    
-    return listaNueva
-
-    pass
 
 
 #parametros de entrada
@@ -58,4 +50,5 @@ inventario = [
     'año': 1940,
     'duración':'2h5min'}
     ]
-print(catalogacion_peliculas(inventario))
+
+print(inventario)
